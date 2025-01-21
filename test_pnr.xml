@@ -1,0 +1,59 @@
+<DaneXML>
+	<PNR xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NumberOfPassengers="3" PNR_TransDate="2024-01-01T02:40:00" PNR_CreationDate="2024-01-01T04:40:00">
+		<BookingRefID xmlns="http://www.iata.org/IATA/2007/00" ID="00A234B">
+			<CompanyName Code="ENT"/>
+		</BookingRefID>
+		<Passenger xmlns="http://www.iata.org/IATA/2007/00" RPH="20000000" SurnameRefNumber="20000000" AccompaniedByInfantInd="false">
+			<GivenName>ANNA</GivenName>
+			<Surname>KOWALSKA</Surname>
+			<DOC_SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK" RPH="20000000">
+				<FlightInfo Code="ENT"/>
+				<DOCS Gender="F" Surname="KOWALSKA" FirstGivenName="ANNA"/>
+			</DOC_SSR>
+		</Passenger>
+		<Passenger xmlns="http://www.iata.org/IATA/2007/00" RPH="20000001" SurnameRefNumber="20000001" AccompaniedByInfantInd="false">
+			<GivenName>ADAM</GivenName>
+			<Surname>KOWALSKI</Surname>
+			<DOC_SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK" RPH="20000001">
+				<FlightInfo Code="ENT"/>
+				<DOCS Surname="KOWALSKI" FirstGivenName="ADAM"/>
+			</DOC_SSR>
+		</Passenger>
+		<Passenger xmlns="http://www.iata.org/IATA/2007/00" RPH="20000002" SurnameRefNumber="20000002" AccompaniedByInfantInd="false">
+			<GivenName>JAN</GivenName>
+			<Surname>KOWALSKI</Surname>
+			<DOC_SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK" RPH="20000002">
+				<FlightInfo Code="ENT"/>
+				<DOCS Gender="M" Surname="KOWALSKI" FirstGivenName="JAN"/>
+			</DOC_SSR>
+		</Passenger>
+		<Flight xmlns="http://www.iata.org/IATA/2007/00" DepartureDateTime="2024-01-01T10:15:00" ArrivalDateTime="2024-01-01T14:20:00" NumberInParty="167" Status="HK" FlightNumber="1234">
+			<DepartureAirport LocationCode="LHR"/>
+			<ArrivalAirport LocationCode="WAW"/>
+			<MarketingAirline Code="ENT"/>
+			<SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK" RPH="20000000">
+				<Airline Code="ENT"/>
+				<Text>/P/POL/BA5345321/POL/30DEC02/F/30AUG27/KOWALSKA/ANNA</Text>
+			</SSR>
+			<SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK" RPH="20000001">
+				<Airline Code="ENT"/>
+				<Text>/P/POL/ZC9038023/POL/30DEC22/M/11FEB26/KOWALSKI/ADAM</Text>
+			</SSR>
+			<SSR SSRCode="CHLD" ServiceQuantity="1" Status="HK" RPH="20000001">
+				<Airline Code="ENT"/>
+				<Text/>
+			</SSR>
+			<SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK" RPH="20000002">
+				<Airline Code="ENT"/>
+				<Text>/P/POL/AB1324659/POL/30DEC02/M/21NOV25/KOWALSKI/JAN</Text>
+			</SSR>
+			<SSR SSRCode="SEAT" ServiceQuantity="1" Status="HK" BoardPoint="LHR" OffPoint="WAW" RPH="20000002">
+				<Airline Code="ENT"/>
+				<Text/>
+			</SSR>
+			<BookingRefID ID="00A234B">
+				<CompanyName Code="ENT"/>
+			</BookingRefID>
+		</Flight>
+	</PNR>
+</DaneXML>
